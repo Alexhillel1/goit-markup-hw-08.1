@@ -1,0 +1,120 @@
+.about {
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 47px;
+  }
+}
+
+.about__list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 10px;
+  }
+}
+
+.about__item {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.about__item-svg--box {
+  text-align: center;
+  background-color: var(--bg-white-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.about__item-title {
+  text-align: start;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-color);
+  margin-bottom: 10px;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.about__item-descr {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.71;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.how {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+
+.how__title {
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
+}
+
+.how__list {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 10px;
+  }
+}
+
+.how-overlay-descr {
+  @media screen and (min-width: 1200px) {
+    position: relative;
+  }
+}
+
+.how__descr {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--how-overlay-color);
+    padding: 27px 30px;
+  }
+}
+
+.how-descr__sub {
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--bg-white-color);
+  }
+}

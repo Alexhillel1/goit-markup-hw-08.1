@@ -18,12 +18,18 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
+  width: 450px;
   min-height: 581px;
   background: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px 40px;
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+  }
 }
 
 .box-close-svg {
@@ -39,6 +45,11 @@
   align-items: center;
   cursor: pointer;
   color: var(--black-color);
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .modal-close-svg {
@@ -58,12 +69,22 @@
 
   color: var(--title-color);
   margin-bottom: 12px;
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .modal-form__field {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .modal-form__label {
@@ -77,6 +98,11 @@
   color: var(--description-color);
 
   margin-bottom: 4px;
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .modal-form__input {
@@ -103,6 +129,11 @@
       fill: var(--main-acent-color);
     }
   }
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .input-box {
@@ -116,6 +147,11 @@
   transform: translateY(50%);
   fill: var(--title-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .modal-form__textarea {
@@ -141,6 +177,11 @@
     letter-spacing: 0.01em;
 
     color: rgba(117, 117, 117, 0.5);
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
   }
 }
 
@@ -216,12 +257,20 @@
 
 .modal-form__policy-text {
   font-weight: 400;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   /* identical to box height, or 171% */
 
   letter-spacing: 0.03em;
 
   color: var(--description-color);
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal-form__policy-link {

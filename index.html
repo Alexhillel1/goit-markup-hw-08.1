@@ -46,6 +46,72 @@
             </ul>
           </nav>
 
+          <button type="button" class="open-mobile-menu-btn" data-menu-open>
+            <svg class="open-mobile-menu-btn__icon" width="40" height="40">
+              <use href="./img/1.svg#icon-burger"></use>
+            </svg>
+          </button>
+
+          <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu__container">
+              <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                <svg class="mobile-menu__close-icon" width="40" height="40">
+                  <use href="./img/symbol-defs.svg#icon-close"></use>
+                </svg>
+              </button>
+
+              <nav class="mobile-menu-navigation">
+                <ul class="mobile-menu-navigation__list list">
+                  <li class="mobile-menu-navigation__item">
+                    <a href="./index.html" class="mobile-menu-navigation__link mobile-menu-navigation__link--current link">Студия</a>
+                  </li>
+
+                  <li class="mobile-menu-navigation__item">
+                    <a href="./portfolio.html" class="mobile-menu-navigation__link link">Портфолио</a>
+                  </li>
+
+                  <li class="mobile-menu-navigation__item">
+                    <a href="#" class="mobile-menu-navigation__link link">Контакты</a>
+                  </li>
+                </ul>
+
+                <ul class="mobile-menu-navigation__list mobile-menu-navigation__list-contact list">
+                  <li class="mobile-menu-navigation__item-contact">
+                    <a href="tel:+380961111111" class="mobile-menu-navigation__link-contact mobile-menu-navigation__link-contact--telephon link"
+                      >+38 096 111 11 11</a
+                    >
+                  </li>
+
+                  <li class="mobile-menu-navigation__item-contact">
+                    <a href="mailto:info@devstudio.com" class="mobile-menu-navigation__link-contact mobile-menu-navigation__link-contact--email link"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+
+                  <li class="mobile-menu-navigation__item-contact">
+                    <ul class="mobile-menu-navigation__contact-soc-list list">
+                      <li class="mobile-menu-navigation__contact-soc-item">
+                        <a href="#" class="mobile-menu-navigation__contact-soc-link link">Instagram</a>
+                      </li>
+
+                      <li class="mobile-menu-navigation__contact-soc-item">
+                        <a href="#" class="mobile-menu-navigation__contact-soc-link link">Twitter</a>
+                      </li>
+
+                      <li class="mobile-menu-navigation__contact-soc-item">
+                        <a href="#" class="mobile-menu-navigation__contact-soc-link link">Facebook</a>
+                      </li>
+
+                      <li class="mobile-menu-navigation__contact-soc-item">
+                        <a href="#" class="mobile-menu-navigation__contact-soc-link link">LinkedIn</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
           <!-- Header contact -->
           <ul class="menu__address-list list">
             <li class="menu__address-item">
@@ -605,6 +671,7 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/modal-mobile-menu.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();

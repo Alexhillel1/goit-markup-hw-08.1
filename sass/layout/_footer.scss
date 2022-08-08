@@ -24,6 +24,14 @@
   }
 }
 
+.footer-info {
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+  }
+}
+
 .logo__footer {
   color: var(--white-color);
   margin-right: 0;
